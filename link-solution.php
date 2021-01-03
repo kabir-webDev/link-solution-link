@@ -11,7 +11,7 @@
 
 		if ( class_exists( 'WooCommerce' ) ) {
 
-			add_filter('woocommerce_loop_product_link','divi_custom_link_solution', 10, 2);
+			add_filter('woocommerce_loop_product_link','divi_custom_link_solution');
 
 			function divi_custom_link_solution($link, $product){
 
